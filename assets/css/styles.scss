@@ -1,0 +1,24 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+}
+
+.wrapper {
+    max-width: 900px;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+.headshot { // image is 2400x3000
+  width: 160px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
