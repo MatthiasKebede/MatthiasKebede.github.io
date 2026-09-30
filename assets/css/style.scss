@@ -1,0 +1,111 @@
+---
+---
+
+@import "jekyll-theme-minimal";
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height: 1.6;
+}
+
+.wrapper {
+    max-width: 900px;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+}
+
+h2 {
+    margin-top: 2rem;
+}
+
+h3 {
+    margin-bottom: 0.35rem;
+}
+
+.headshot {
+    width: 160px;
+    height: auto;
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1rem;
+    margin: 1rem 0;
+}
+
+.social-link {
+    align-items: center;
+    display: inline-flex;
+    gap: 0.35rem;
+}
+
+.link-icon {
+    fill: currentColor;
+    height: 1rem;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.5;
+    width: 1rem;
+}
+
+.certification-group {
+    align-items: flex-start;
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.certification-group ul {
+    margin-top: 0.35rem;
+}
+
+.certification-logo {
+    align-items: center;
+    border-radius: 0.25rem;
+    color: #ffffff;
+    display: inline-flex;
+    flex: 0 0 5.5rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+    justify-content: center;
+    letter-spacing: 0.02em;
+    min-height: 2rem;
+    padding: 0.25rem;
+    text-align: center;
+}
+
+.certification-logo--aws {
+    background: #232f3e;
+}
+
+.certification-logo--microsoft {
+    background: #0078d4;
+}
+
+.certification-logo--comptia {
+    background: #1f6f78;
+}
+
+.certification-logo--citi {
+    background: #4b7f52;
+}
+
+@media screen and (max-width: 600px) {
+    .headshot {
+        width: 120px;
+    }
+
+    .certification-group {
+        gap: 0.75rem;
+    }
+
+    .certification-logo {
+        flex-basis: 4.5rem;
+    }
+}
