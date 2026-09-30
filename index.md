@@ -26,7 +26,6 @@ Computer Science graduate from NYU Abu Dhabi with interests in cybersecurity, cl
 	</a>
 	<a class="social-link" href="/assets/Kebede_Resume.pdf">Resume/CV</a>
 </nav>
-[Resume/CV](/assets/Kebede_Resume.pdf)
 
 ## Experience
 
@@ -51,9 +50,7 @@ Computer Science graduate from NYU Abu Dhabi with interests in cybersecurity, cl
 
 Abu Dhabi, UAE | May 2026
 
-Bachelor of Science in Computer Science
-
-Minor in Interactive Media
+Bachelor of Science in Computer Science; Minor in Interactive Media
 
 Cumulative GPA: 3.58/4.00
 
@@ -84,7 +81,7 @@ Cumulative GPA: 3.58/4.00
 ## Certifications and Ongoing Study
 
 <div class="certification-group">
-	<span class="certification-logo certification-logo--aws" aria-hidden="true">AWS</span>
+	<img class="certification-logo" src="/assets/images/Amazon_Web_Services_Logo.svg" alt="Amazon Web Services logo">
 	<div>
 		<strong>Amazon Web Services</strong>
 		<ul>
@@ -94,7 +91,7 @@ Cumulative GPA: 3.58/4.00
 </div>
 
 <div class="certification-group">
-	<span class="certification-logo certification-logo--microsoft" aria-hidden="true">Microsoft</span>
+	<img class="certification-logo" src="/assets/images/Microsoft_logo_(2012).svg" alt="Microsoft logo">
 	<div>
 		<strong>Microsoft</strong>
 		<ul>
@@ -106,7 +103,7 @@ Cumulative GPA: 3.58/4.00
 </div>
 
 <div class="certification-group">
-	<span class="certification-logo certification-logo--comptia" aria-hidden="true">CompTIA</span>
+	<img class="certification-logo" src="/assets/images/Comptia-Logo.png" alt="CompTIA logo">
 	<div>
 		<strong>CompTIA</strong>
 		<ul>

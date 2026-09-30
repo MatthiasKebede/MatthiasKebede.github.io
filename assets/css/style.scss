@@ -66,30 +66,16 @@ h3 {
 }
 
 .certification-logo {
-    align-items: center;
+    background: #ffffff;
+    border: 1px solid #d8dee4;
     border-radius: 0.25rem;
-    color: #ffffff;
-    display: inline-flex;
+    box-sizing: border-box;
+    display: block;
     flex: 0 0 5.5rem;
-    font-size: 0.7rem;
-    font-weight: 700;
-    justify-content: center;
-    letter-spacing: 0.02em;
-    min-height: 2rem;
-    padding: 0.25rem;
-    text-align: center;
-}
-
-.certification-logo--aws {
-    background: #232f3e;
-}
-
-.certification-logo--microsoft {
-    background: #0078d4;
-}
-
-.certification-logo--comptia {
-    background: #1f6f78;
+    height: 3rem;
+    object-fit: contain;
+    padding: 0.5rem;
+    width: 5.5rem;
 }
 
 .certification-logo--citi {
